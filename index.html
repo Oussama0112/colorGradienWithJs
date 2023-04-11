@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="currentGradient"></div>
+      <div class="colors">
+        <h5>colors</h5>
+        <div class="colorsinput">
+          <input
+            type="color"
+            name="color1"
+            id="color1"
+            class="color1"
+            value="#0000ff"
+            title="color1"
+          />
+          <input
+            type="color"
+            name="color2"
+            id="color2"
+            class="color2"
+            value="#00ff00"
+            title="color2"
+          />
+          <input
+            type="color"
+            name="color3"
+            id="color3"
+            class="color3"
+            value="#ff0000"
+            title="color3"
+          />
+        </div>
+      </div>
+      <div class="direction">
+        <h5>direction</h5>
+        <select name="degree" id="degree">
+          <option value="to right">left to right</option>
+          <option value="to left">right to left</option>
+          <option value="to bottom">top to bottom</option>
+          <option value="to top">bottom to top</option>
+          <option value="to bottom right">top left to bottom right</option>
+          <option value="to bottom left">top right to bottom left</option>
+        </select>
+      </div>
+      <div class="mybtns" id="mybtns">
+        <button class="mybtn1 gen" id="mybtn1">generate</button>
+        <button class="mybtn2" id="mybtn2">refresh</button>
+      </div>
+      <div class="output">
+        <textarea class="cssOutput"></textarea>
+      </div>
+      <button class="gen copy" id="mybtn3">copy css code</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
