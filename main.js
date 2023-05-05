@@ -13,7 +13,7 @@ let body = document.body,
 generate.addEventListener("click", function () {
   body.style.backgroundImage = `linear-gradient(${direction.value},${color1.value},${color2.value},${color3.value})`;
   currentGradient.style.backgroundImage = `linear-gradient(${direction.value},${color1.value},${color2.value},${color3.value})`;
-  cssCode.value = `background-image: linear-gradient(${direction.value},${color1.value},${color2.value},${color3.value}`;
+  cssCode.value = `background-image: linear-gradient(${direction.value},${color1.value},${color2.value},${color3.value})`;
 });
 refresh.addEventListener("click", function () {
   body.style.background = "lightblue";
